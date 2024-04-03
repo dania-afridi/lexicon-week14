@@ -61,3 +61,8 @@ posts.push("Morning Exercise");
 console.log(posts);
 posts.push("Beauty of Nature");
 console.log(posts);
+
+// Ex # 05:
+const answer = document.getElementById("Answer");
+answer.innerHTML = `By using shift method we could return top most priority task while removing it.
+And By using pop method we could return lowest priority task while removing it.`;
