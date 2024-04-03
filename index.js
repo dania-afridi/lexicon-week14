@@ -35,7 +35,21 @@ console.log(threeTimes("Adding text and two numbers ", 15, 3));
 ///******* Wednesday Exercise ***********/
 
 // Ex # 01:
-let weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 console.log(weekDays[3]);
 
 // Ex # 02:
+const fivePosts = ["Morning walk", "Making a Dinner", "Playing with the children", "Watching a movie", "Doing an exercise"];
+console.log(fivePosts[2]);
+fivePosts[2]= "Reading an Article";
+console.log(fivePosts[2]);
+
+// Ex # 03:
+const fourPosts = ["Morning walk", "Making a Dinner", "Watching a movie", "Doing an exercise"];
+console.log(fourPosts);
+const temporaryContainer = fourPosts[0];
+fourPosts[0] = fourPosts[1];
+fourPosts[1] = temporaryContainer;
+console.log(fourPosts);
+
+// Ex # 04:
