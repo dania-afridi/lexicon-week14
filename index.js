@@ -53,3 +53,11 @@ fourPosts[1] = temporaryContainer;
 console.log(fourPosts);
 
 // Ex # 04:
+const posts = [];
+console.log(posts);
+posts.push("Evening Joy");
+console.log(posts);
+posts.push("Morning Exercise");
+console.log(posts);
+posts.push("Beauty of Nature");
+console.log(posts);
