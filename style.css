@@ -6,6 +6,9 @@ body {
 h2, h4, p, ol {
     text-align: left;
 }
+p, ol {
+    color: darkred;
+}
 .container {
     max-width: 600px;
     text-align: center;
