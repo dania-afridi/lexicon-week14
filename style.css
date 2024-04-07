@@ -9,8 +9,8 @@ h2, h4, p, ol {
 .container {
     max-width: 600px;
     text-align: center;
-    margin: 50px auto;
-    padding: 80px 30px;
+    margin:10px auto;
+    padding: 15px 50px;
     background-color: lightcyan;
     border-radius: 25px;
 }

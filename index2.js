@@ -11,9 +11,9 @@ section1.appendChild(newHeading);
 
 divContainer.appendChild(section1);
 
-///******* Thursday Exercise ***********/
+//////////******* Thursday Exercise ***********//////////
 
-// Ex # 01:
+////////// Ex # 01:
 const orderedList = document.createElement("ol");
 const list1 = document.createElement("li");
 const list2 = document.createElement("li");
@@ -28,7 +28,7 @@ orderedList.appendChild(list2);
 orderedList.appendChild(list3);
 section1.appendChild(orderedList);
 
-// Ex # 02:
+////////// Ex # 02:
 
 const section2 = document.createElement("div");
 section2.setAttribute("class", "section2");
@@ -49,23 +49,31 @@ section2.appendChild(paragraph);
 
 divContainer.appendChild(section2);
 
-// Ex # 03:
+////////// Ex # 03:
 const div1 = document.createElement("div");
+const p1 = document.createElement("p");
 const div1Text = document.createTextNode("I am first div of exercise 03.");
-div1.appendChild(div1Text);
+p1.appendChild(div1Text);
+div1.appendChild(p1);
 divContainer.appendChild(div1);
 
 const div2 = document.createElement("div");
+const p2 = document.createElement("p");
 const div2Text = document.createTextNode("I am second div of exercise 03.");
-div1.appendChild(div2Text);
+p2.appendChild(div2Text);
+div2.appendChild(p2);
 divContainer.appendChild(div2);
 
 const div3 = document.createElement("div");
+const p3 = document.createElement("p");
 const div3Text = document.createTextNode("I am third div of exercise 03.");
-div1.appendChild(div3Text);
+p3.appendChild(div3Text);
+div3.appendChild(p3);
 divContainer.appendChild(div3);
 
 const div4 = document.createElement("div");
+const p4 = document.createElement("p");
 const div4Text = document.createTextNode("I am fourth div of exercise 03.");
-div1.appendChild(div4Text);
+p4.appendChild(div4Text);
+div4.appendChild(p4);
 divContainer.appendChild(div4);
