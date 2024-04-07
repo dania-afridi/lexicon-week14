@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: wheat;
 }
-h4, p {
+h2, h4, p, ol {
     text-align: left;
 }
 .container {
