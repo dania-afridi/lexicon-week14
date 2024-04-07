@@ -51,29 +51,17 @@ divContainer.appendChild(section2);
 
 ////////// Ex # 03:
 const div1 = document.createElement("div");
-const p1 = document.createElement("p");
-const div1Text = document.createTextNode("Here is the First div of exercise 03.");
-p1.appendChild(div1Text);
-div1.appendChild(p1);
+div1.setAttribute("class", "div1");
 divContainer.appendChild(div1);
 
 const div2 = document.createElement("div");
-const p2 = document.createElement("p");
-const div2Text = document.createTextNode("Here is the Second div of exercise 03.");
-p2.appendChild(div2Text);
-div2.appendChild(p2);
+div2.setAttribute("class", "div2");
 divContainer.appendChild(div2);
 
 const div3 = document.createElement("div");
-const p3 = document.createElement("p");
-const div3Text = document.createTextNode("Here is the Third div of exercise 03.");
-p3.appendChild(div3Text);
-div3.appendChild(p3);
+div3.setAttribute("class", "div3");
 divContainer.appendChild(div3);
 
 const div4 = document.createElement("div");
-const p4 = document.createElement("p");
-const div4Text = document.createTextNode("Here is the Fourth div of exercise 03.");
-p4.appendChild(div4Text);
-div4.appendChild(p4);
+div4.setAttribute("class", "div4");
 divContainer.appendChild(div4);
