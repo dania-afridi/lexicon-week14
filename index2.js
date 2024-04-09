@@ -13,7 +13,8 @@ divContainer.appendChild(section1);
 
 //////////******* Thursday Exercise ***********//////////
 
-////////// Ex # 01:
+////////// Ex # 01: 
+/*
 const orderedList = document.createElement("ol");
 const list1 = document.createElement("li");
 const list2 = document.createElement("li");
@@ -25,8 +26,15 @@ list3.appendChild(document.createTextNode("Adding to HTML page."));
 
 orderedList.appendChild(list1);
 orderedList.appendChild(list2);
-orderedList.appendChild(list3);
-section1.appendChild(orderedList);
+orderedList.appendChild(list3);*/
+
+const NodesArray = ["Creating Element.", "Creating Text Nodes.", "Adding to HTML page."];
+let orderedList = "<ol>";
+for (let i = 0; i < 3; i++) {
+  orderedList += "<li>" + NodesArray[i] + "</li>";
+}
+orderedList += "</ol>";
+section1.innerHTML = orderedList;
 
 ////////// Ex # 02:
 
